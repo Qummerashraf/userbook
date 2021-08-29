@@ -78,7 +78,8 @@ function Userlist({ color, bg }) {
                     style={{
                       margin: "10px auto",
                       borderRadius: "50%",
-                      width: "100%"
+                      width: "80%",
+                      height:"60%"
                     }}
                   />
                 </div>
