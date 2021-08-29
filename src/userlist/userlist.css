@@ -1,0 +1,73 @@
+.user {
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+  box-shadow: 0px 0px 5px 2px rgb(201, 201, 201);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.45s;
+}
+
+.user:hover,
+.pagination li:hover {
+  transform: scale(1.08);
+  opacity: 1;
+  box-shadow: 0px 0px 5px 2px rgb(255, 191, 161);
+}
+
+.name h2 {
+  display: inline-block;
+  padding: 0px 3px;
+}
+
+.name:hover {
+  color: mediumslateblue;
+}
+h4 {
+  color: rgb(255, 94, 0);
+}
+h4:hover {
+  color: rgb(43, 226, 125);
+}
+
+img {
+  border-radius: 50%;
+  border: 2px solid rgb(0, 62, 124);
+}
+
+hr {
+  border: none;
+  width: 50%;
+  height: 2px;
+  background-color: rgb(158, 0, 197);
+}
+
+.pagination {
+  list-style: none;
+  text-align: center;
+}
+
+.pagination li {
+  display: inline-block;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 3px 2px rgb(223, 223, 223);
+  background-color: rgba(214, 246, 255, 0.932);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 20px 5px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.45s;
+}
+
+.disabled {
+  background-color: rgb(87, 84, 87) !important;
+  cursor: not-allowed !important;
+}
+
+.active {
+  background-color: rgb(0, 168, 14) !important;
+}
