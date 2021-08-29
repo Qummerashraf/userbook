@@ -4,7 +4,7 @@ import Userlist from "./userlist/Userlist";
 
 
 function App() {
-  const [bg, setbg] = useState("black");
+  const [bg, setbg] = useState("aliceblue");
   const [color, setColor] = useState("black");
 
   const handlemode = () => {
